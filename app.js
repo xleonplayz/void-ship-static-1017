@@ -1,0 +1,1 @@
+document.querySelector('#filter').addEventListener('click',()=>{document.querySelectorAll('article').forEach(a=>a.hidden=a.dataset.kind!=='plant');document.querySelector('#count').textContent='2 plants';});
